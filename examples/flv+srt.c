@@ -119,7 +119,7 @@ int main(int argc, char** argv)
     flv_write_header(out, has_audio, has_video);
 
     fprintf(stderr, "Reading flv from %s\n", argv[1]);
-    fprintf(stderr, "Reading captons from %s\n", argv[2]);
+    fprintf(stderr, "Reading captions from %s\n", argv[2]);
     fprintf(stderr, "Writing flv to %s\n", argv[3]);
 
     while (flv_read_tag(flv, &tag)) {
